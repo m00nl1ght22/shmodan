@@ -10,4 +10,9 @@ python2 shmodan.py
 
 Usage:
 Sign up in a Shodan
-Open a shmodan.py file in a text editor, replace "key" with your Shodan API Key, enjoy.
+
+Open a shmodan.py file in a text editor
+
+Replace "key" with your Shodan API Key 
+
+Enjoy.
