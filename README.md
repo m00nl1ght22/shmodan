@@ -4,7 +4,7 @@ ICA shmodan - An automatic searching Shodan script.
 Installing:
 git clone https://github.com/m00nlight22/shmodan
 
-pip2 install shodan
+pip2 install -r requirements.txt
 
 python2 shmodan.py
 
