@@ -1,5 +1,5 @@
 # shmodan
-ICA shmodan - A Shodan bruteforce script.
+ICA shmodan - An automatic searching Shodan script.
 
 Installing:
 git clone https://github.com/m00nlight22/shmodan
