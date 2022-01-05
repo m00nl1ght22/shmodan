@@ -2,7 +2,7 @@ import shodan
 import sys
 key = "key"
 
-query = raw_input("zapros: ")
+query = raw_input("request: ")
 filename = raw_input("filename: ")
 spisok = open(filename,"w")
 
