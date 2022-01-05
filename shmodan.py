@@ -15,4 +15,3 @@ try:
                 iplist.write("\n")
 except Exception as e:
         print 'err: %s' % e
-
