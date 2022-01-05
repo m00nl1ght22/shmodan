@@ -4,15 +4,14 @@ key = "key"
 
 query = raw_input("request: ")
 filename = raw_input("filename: ")
-spisok = open(filename,"w")
+iplist = open(filename, "w")
 
 try:
         api = shodan.Shodan(key)
         result = api.search(query)
         for service in result['matches']:
                 print service['ip_str']
-                spisok.write(service['ip_str'])
-                spisok.write("\n")
+                iplist.write(service['ip_str'])
+                iplist.write("\n")
 except Exception as e:
         print 'err: %s' % e
-
