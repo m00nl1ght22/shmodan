@@ -1,5 +1,5 @@
 # shmodan
-ica shmodan
+ICA shmodan
 
 Installing:
 git clone https://github.com/m00nlight22/shmodan
